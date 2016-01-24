@@ -1,0 +1,1 @@
+# writing-angular-1-code-in-typescript-sample
