@@ -1,0 +1,10 @@
+<div ng-controller="SimpleController as c">
+	<h1 ng-bind="c.header"></h1>
+	<p ng-bind="c.text"></p>
+	<ul>
+		<li ng-repeat="tip in c.tips" ng-bind="tip"></li>
+	</ul>
+	<button ng-click='c.signUpNow()'>Sign up now!</button>
+    
+    <my-app-simple-directive></my-app-simple-directive>
+</div>
